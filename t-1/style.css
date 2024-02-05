@@ -17,17 +17,31 @@ section {
 header {
   padding: 20px 0;
 }
-header .imgbox {
+header .menu .imgbox {
   height: 36px;
   width: 36px;
 }
-header nav a {
+header .menu nav a {
   font-size: 20px;
   color: #8c8999;
   margin-right: 30px;
 }
-header nav .home-color {
+header .menu nav .home-color {
   color: #74bebc;
+}
+header .menu .icon {
+  display: none;
+}
+@media (max-width: 992px) {
+  header .menu nav {
+    display: none;
+  }
+  header .menu .icon {
+    display: flex;
+    background-color: #f2f2f4;
+    padding: 10px;
+    border-radius: 3px;
+  }
 }
 
 #beautiful {
