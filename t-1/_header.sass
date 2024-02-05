@@ -17,9 +17,19 @@ header
         .menu
             nav
                 display: none
+            .icon-shop
+                display: none
             .icon
                 display: flex
                 background-color: #f2f2f4
                 padding: 10px
                 border-radius: 3px
-                // justify-content: flex-end
+    @media (max-width: 576px)
+        .menu
+            .icon-shop
+                display: flex
+                background-color: #35b9bf
+                color: #ffff
+                padding: 10px
+                border-radius: 3px
+                margin-left: 330px

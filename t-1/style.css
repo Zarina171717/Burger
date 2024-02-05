@@ -36,11 +36,24 @@ header .menu .icon {
   header .menu nav {
     display: none;
   }
+  header .menu .icon-shop {
+    display: none;
+  }
   header .menu .icon {
     display: flex;
     background-color: #f2f2f4;
     padding: 10px;
     border-radius: 3px;
+  }
+}
+@media (max-width: 576px) {
+  header .menu .icon-shop {
+    display: flex;
+    background-color: #35b9bf;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 330px;
   }
 }
 
